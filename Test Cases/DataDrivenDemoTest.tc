@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDrivenDemoTest</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5585973-e161-478c-96ff-cbf902cc278d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc7f93fe-5f16-4b05-ab04-c7c31d3ca158</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'kunal'</defaultValue>
+      <description></description>
+      <id>cc7f93fe-5f16-4b05-ab04-c7c31d3ca158</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

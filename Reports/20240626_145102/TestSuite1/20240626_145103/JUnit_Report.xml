@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="3.403" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="3.403" skipped="0" timestamp="26-06-2024T14:51:11" hostname="KunalMewade - ZCHYDLP0022" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\KunalMewade\\Katalon Studio\\SampleRESTAPITestingProject\\Reports\\20240626_145102\\TestSuite1\\20240626_145103"/>
+         <property name="logFiles" value="C:\\Users\\KunalMewade\\Katalon Studio\\SampleRESTAPITestingProject\\Reports\\20240626_145102\\TestSuite1\\20240626_145103\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KunalMewade - ZCHYDLP0022"/>
+         <property name="hostAddress" value="192.168.1.28"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/APIChainingDemo" time="2.608" classname="Test Cases/APIChainingDemo" status="PASSED">
+         <system-out><![CDATA[26-06-2024T14:51:11 - [TEST_CASE][PASSED] - Test Cases/APIChainingDemo: Test Cases/APIChainingDemo
+
+26-06-2024T14:51:11 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("RESTWebServices/ListUsers")): Send request successfully
+
+26-06-2024T14:51:13 - [MESSAGE][INFO] - HAR: C:\Users\KunalMewade\Katalon Studio\SampleRESTAPITestingProject\Reports\20240626_145102\TestSuite1\20240626_145103\requests\main\0.har
+
+26-06-2024T14:51:13 - [MESSAGE][PASSED] - Send request successfully
+
+26-06-2024T14:51:13 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+26-06-2024T14:51:13 - [TEST_STEP][PASSED] - result = slurper.parseText(response1.getResponseBodyContent()): null
+
+26-06-2024T14:51:13 - [TEST_STEP][PASSED] - value = first_name: null
+
+26-06-2024T14:51:13 - [TEST_STEP][PASSED] - println(".....vlaue extracted is :" + value): null
+
+26-06-2024T14:51:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/UpdateUser", ["userName":value])): Send request successfully
+
+26-06-2024T14:51:13 - [MESSAGE][INFO] - HAR: C:\Users\KunalMewade\Katalon Studio\SampleRESTAPITestingProject\Reports\20240626_145102\TestSuite1\20240626_145103\requests\main\1.har
+
+26-06-2024T14:51:13 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SampleTestOne" time="0.632" classname="Test Cases/SampleTestOne" status="PASSED">
+         <system-out><![CDATA[26-06-2024T14:51:13 - [TEST_CASE][PASSED] - Test Cases/SampleTestOne: Test Cases/SampleTestOne
+
+26-06-2024T14:51:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser")): Send request successfully
+
+26-06-2024T14:51:14 - [MESSAGE][INFO] - HAR: C:\Users\KunalMewade\Katalon Studio\SampleRESTAPITestingProject\Reports\20240626_145102\TestSuite1\20240626_145103\requests\main\2.har
+
+26-06-2024T14:51:14 - [MESSAGE][PASSED] - Send request successfully
+
+26-06-2024T14:51:14 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/ListUsers")): Send request successfully
+
+26-06-2024T14:51:14 - [MESSAGE][INFO] - HAR: C:\Users\KunalMewade\Katalon Studio\SampleRESTAPITestingProject\Reports\20240626_145102\TestSuite1\20240626_145103\requests\main\3.har
+
+26-06-2024T14:51:14 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-06-2024T14:51:11 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/SampleTestOne]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

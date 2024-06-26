@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DatDrivenDemo" time="3.356" tests="3" failures="0" errors="0">
+   <testsuite name="DatDrivenDemo" tests="3" failures="0" errors="0" time="3.356" skipped="0" timestamp="26-06-2024T16:26:02" hostname="KunalMewade - ZCHYDLP0022" id="Test Suites/DatDrivenDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\KunalMewade\\Katalon Studio\\SampleRESTAPITestingProject\\Reports\\20240626_162554\\DatDrivenDemo\\20240626_162555"/>
+         <property name="logFiles" value="C:\\Users\\KunalMewade\\Katalon Studio\\SampleRESTAPITestingProject\\Reports\\20240626_162554\\DatDrivenDemo\\20240626_162555\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KunalMewade - ZCHYDLP0022"/>
+         <property name="hostAddress" value="192.168.1.28"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenDemoTest" time="2.384" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[26-06-2024T16:26:02 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+26-06-2024T16:26:03 - [TEST_STEP][PASSED] - println("...........Using username" + Username): null
+
+26-06-2024T16:26:03 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["username":Username])): Send request successfully
+
+26-06-2024T16:26:05 - [MESSAGE][INFO] - HAR: C:\Users\KunalMewade\Katalon Studio\SampleRESTAPITestingProject\Reports\20240626_162554\DatDrivenDemo\20240626_162555\requests\main\0.har
+
+26-06-2024T16:26:05 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenDemoTest" time="0.413" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[26-06-2024T16:26:05 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+26-06-2024T16:26:05 - [TEST_STEP][PASSED] - println("...........Using username" + Username): null
+
+26-06-2024T16:26:05 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["username":Username])): Send request successfully
+
+26-06-2024T16:26:05 - [MESSAGE][INFO] - HAR: C:\Users\KunalMewade\Katalon Studio\SampleRESTAPITestingProject\Reports\20240626_162554\DatDrivenDemo\20240626_162555\requests\main\1.har
+
+26-06-2024T16:26:05 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenDemoTest" time="0.375" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[26-06-2024T16:26:05 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+26-06-2024T16:26:05 - [TEST_STEP][PASSED] - println("...........Using username" + Username): null
+
+26-06-2024T16:26:05 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["username":Username])): Send request successfully
+
+26-06-2024T16:26:05 - [MESSAGE][INFO] - HAR: C:\Users\KunalMewade\Katalon Studio\SampleRESTAPITestingProject\Reports\20240626_162554\DatDrivenDemo\20240626_162555\requests\main\2.har
+
+26-06-2024T16:26:05 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-06-2024T16:26:02 - [TEST_SUITE][PASSED] - DatDrivenDemo: Test Cases/DataDrivenDemoTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

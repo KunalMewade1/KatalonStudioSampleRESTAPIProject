@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DatDrivenDemo,,,,26-06-2024 16:26:02,26-06-2024 16:26:05,3.356s,PASSED
+,,,,,,,
+Test Cases/DataDrivenDemoTest,,,,26-06-2024 16:26:02,26-06-2024 16:26:05,2.384s,PASSED
+"println(""...........Using username"" + Username)",,,,26-06-2024 16:26:03,26-06-2024 16:26:03,0.011s,PASSED
+"sendRequest(findTestObject(""RESTWebServices/CreateUser"", [""username"":Username]))",,,,26-06-2024 16:26:03,26-06-2024 16:26:05,2.115s,PASSED
+,,,,,,,
+Test Cases/DataDrivenDemoTest,,,,26-06-2024 16:26:05,26-06-2024 16:26:05,0.413s,PASSED
+"println(""...........Using username"" + Username)",,,,26-06-2024 16:26:05,26-06-2024 16:26:05,0.002s,PASSED
+"sendRequest(findTestObject(""RESTWebServices/CreateUser"", [""username"":Username]))",,,,26-06-2024 16:26:05,26-06-2024 16:26:05,0.380s,PASSED
+,,,,,,,
+Test Cases/DataDrivenDemoTest,,,,26-06-2024 16:26:05,26-06-2024 16:26:05,0.375s,PASSED
+"println(""...........Using username"" + Username)",,,,26-06-2024 16:26:05,26-06-2024 16:26:05,0.001s,PASSED
+"sendRequest(findTestObject(""RESTWebServices/CreateUser"", [""username"":Username]))",,,,26-06-2024 16:26:05,26-06-2024 16:26:05,0.360s,PASSED
